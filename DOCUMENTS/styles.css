@@ -1,0 +1,85 @@
+body{
+	background-color: #d0e4fe;
+	/*color: yellow;*/
+}
+table, th {
+	border: 2px solid black;
+	border-collapse: collapse;
+	border-spacing: 5px;
+}
+td {
+	border: 1px solid black;
+	padding-left: 13px
+
+/*tr#th1{
+	width: 45%;
+	background-color: #f1f1c1
+}
+table#t01 {
+	background-color: white;
+}
+table#t01 {
+	background-color: #f1f1c1;
+}*/
+		h3{color: violet; font-family: courier;font-size: 180%}
+		p{
+			color: grey;
+		}
+		p#pid{
+		color: #3366FF;
+		}
+			/*ul#kkt{
+				color: indigo;*/
+		}
+		p.error{background-color: brown ;
+			width: 15%;
+			color: black
+		}
+		
+		a:link    {color:#000000; background-color:transparent;
+			text-decoration: none;
+		}
+		a:visited {color:#000000; background-color:transparent}
+		a:hover   {color:#ff0000; background-color:transparent ; opacity: 2.0;}
+		a:active  {color:#ff0000; background-color:transparent ;
+		}
+		table#t01 {
+		background-color: #f1f1c1;}
+		table#t01 tr:nth-child(even) {
+			background-color: #eee}
+		table#t01 tr:nth-child(odd) {
+			background-color: #fff;}
+		table#t01 th {
+			background-color: pink;
+			color: white;}
+			/*ToDo: Assign special features to a particular cell in the table;
+			table#t01 th:nth-child(odd) {
+				background-color: yellow;
+			}*/
+			nav#n03 {
+				color: #fff;
+			}
+		/*horizontal list*/
+		ul#langs li{
+			display: inline;
+		}
+		/*extra styles u can add */
+		ul#langs li {
+			background-color: black;
+			color: white;
+			padding: 10px 20px;
+			text-decoration: none;
+			border-radius: 4px 4px 4px 4px ;
+			/*margin: -2px*/
+			cursor: pointer;
+		}
+		ul#langs li:hover {
+			background-color: orange;
+		}
+		ul#langs li a{
+			color: white;
+			/*text-decoration: none;*/
+		}
+		p#abt a {
+			float: right; margin-right: 30px; margin-bottom: 20px; padding: 10px 20px; border-radius: 3px 3px 3px 3px;  background-color: lightgrey;
+		}
